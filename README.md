@@ -1,6 +1,6 @@
 # Human Name Parser
 
-[![Build Status](https://travis-ci.org/activecollab/humannameparser.svg?branch=master)](https://travis-ci.org/activecollab/humannameparser)
+[![Build Status](https://travis-ci.org/activecollab/HumanNameParser.svg?branch=master)](https://travis-ci.org/activecollab/HumanNameParser)
 
 Takes human names of arbitrary complexity and various formats leading initial, first name, last name, middle name, nicknames etc. Example:
 
