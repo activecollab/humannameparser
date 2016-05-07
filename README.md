@@ -1,6 +1,17 @@
 # Human Name Parser
 
-Takes human names of arbitrary complexity and various formats leading initial, first name, last name, middle name, nicknames etc.
+[![Build Status](https://travis-ci.org/activecollab/humannameparser.svg?branch=master)](https://travis-ci.org/activecollab/humannameparser)
+
+Takes human names of arbitrary complexity and various formats leading initial, first name, last name, middle name, nicknames etc. Example:
+
+```php
+use ActiveCollab\HumanNameParser\Parser as HumanNameParser;
+
+$name = new HumanNameParser("Peter O'Toole");
+
+print $name->getFirst();
+print $name->getLast();
+```
 
 ## Running tests:
 
