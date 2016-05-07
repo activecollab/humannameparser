@@ -1,0 +1,36 @@
+{
+    "name": "activecollab/humannameparser",
+    "type": "library",
+    "description": "Takes human names of arbitrary complexity and various formats leading initial, first name, last name, middle name, nicknames etc",
+    "license": "MIT",
+    "prefer-stable": true,
+    "keywords": [
+        "parse",
+        "name"
+    ],
+    "homepage": "https://labs.activecollab.com",
+    "authors": [
+        {
+            "name" : "Jason Priem",
+            "email" : "jason@jasonpriem.com"
+        },
+        {
+            "name": "Ilija Studen",
+            "email": "ilija.studen@activecollab.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "^1.0",
+        "phpunit/phpunit": "^5.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ActiveCollab\\HumanNameParser\\": "src",
+            "ActiveCollab\\HumanNameParser\\Test\\": "test/src"
+        }
+    }
+}
