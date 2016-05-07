@@ -5,11 +5,11 @@
 Takes human names of arbitrary complexity and various formats and parses initial, first name, last name, middle name, nicknames etc. Example:
 
 ```php
-use ActiveCollab\HumanNameParser\Parser as HumanNameParser;
+use ActiveCollab\HumanNameParser\Parser;
 
-$name = new HumanNameParser("Peter O'Toole");
+$name = new Parser("Peter O'Toole");
 
-print $name->getFirst();
+print $name->getFirst() . "\n";
 print $name->getLast();
 ```
 
